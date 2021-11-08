@@ -8,38 +8,54 @@
 }
 
 .ask {
-  width: 300px;
+  width: 400px;
   margin-bottom: 10px;
   padding: 1px 1px 1px 10px;
   background-color: #F4F4F4;
 }
 
 .answer {
-  width: 300px;
+  width: 400px;
   padding: 1px 1px 1px 10px;
   background-color: #fffde2;
   margin-bottom: 20px;
 }
 
-.form {
-  margin: 10px;
-  padding: 10px;
-}
-
-.form input {
-  margin-top: 10px;
-}
 
 a {
-  border: 1px solid blue;
+  border: 1px solid #095ED7;
+  background-color: #095ED7;
   padding: 10px;
   border-radius: 5px;
   text-decoration: none;
-  color: blue;
+  color: white;
   transition: background-color 0.5s;
 }
 
 a:hover {
-  color: white;
-  background-color: blue;
+  color: #095ED7;
+  background-color: white;
 }
+
+//------- Draft CSS -------//
+/* .form input {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.input {
+  width: 300px;
+}
+
+.button {
+  border: 1px solid #337ab7;
+  background-color: #337ab7;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.5s;
+}
+
+.button:hover {
+  color: #337ab7;
+  background-color: white;
+} */

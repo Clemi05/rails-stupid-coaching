@@ -1,5 +1,10 @@
-<form action="/answer" method="get" class="form">
-  <label for="question">Ask your coach anything:</label><br>
-  <input type="text" name="question" value="<%= params[:question] %>" placeholder="Ask something to the stupid coach!">
-  <input type="submit" value="Ask!">
-</form>
+<div class="container">
+  <h1>Stupid Coaching</h1>
+  <form action="/answer" method="get">
+    <label for="question" class="form-label">Ask your coach anything:</label><br>
+    <div class="input-group mb-3">
+      <input type="text" name="question" class="form-control" value="<%= params[:question] %>">
+      <input type="submit" value="Ask!" class="btn btn-primary">
+    </div>
+  </form>
+</div>
